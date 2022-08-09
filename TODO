@@ -1,0 +1,43 @@
+---------------[Notes]---------------
+
+3 file 1
+4 file 2
+5 file 3
+
+1 Add
+2 Remove
+Number: 
+
+---------------[file 1]---------------
+
+task 1
+task 2
+task 3
+
+1 Add
+2 Remove
+3 Set done
+4 Save
+5 Exit
+Number: 
+
+
+---------------[todo]---------------
+main.c
+    read first argument wich represent dir path, if no arguemnt is provided, then use default dir (~/notes)
+    add -v, -h
+notes.c
+    read all files (notes) in the dir and diplay menu 1
+    add_note:
+        note name: 
+    remove_note:
+        number: 
+task.c
+    read all lines (tasks) in the file (note) and diplay menu 2
+tools.c
+    commun functions 
+console.c
+    print tasks and menu to the terminal.
+
+
+verify error

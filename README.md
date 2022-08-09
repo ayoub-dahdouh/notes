@@ -7,11 +7,14 @@ Organize your steps to reach your goals, this command is used to manage notes fr
 
 ## Documentation
 
-Usage:  notes [OPTION] [DIR]
-DIR:    directory where notes are stored, by default (~/Notes)
+```
+Usage:	notes [OPTION] [DIR]
+DIR:	directory where notes are stored, by default (~/Notes)
 OPTION:
-        -h help
-        -v version
+	-h	help
+	-v	version
+
+```
 
 ## License
 
