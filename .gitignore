@@ -1,3 +1,7 @@
+./TODO
+./build/*
+./notes
+./.vscode
 # Prerequisites
 *.d
 
