@@ -76,13 +76,13 @@ void remove_note(char *dirname, linklist notes)
 
     if (remove(tmp) == 0)
     {
+        ldel(notes, choice - 4);
+        check_free(tmp);
+        check_free(note);
         printf("the note is removed\n");
     }
     else
     {
-        ldel(notes, choice - 4);
-        check_free(tmp);
-        check_free(note);
         printf("error in removing the note\n");
     }
 }
