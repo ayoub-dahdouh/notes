@@ -72,6 +72,7 @@ int menu2(char *notepath, char *notename)
     {
         return_to_menu1(modified, notepath, tasks);
         first = 1;
+        modified = 0;
         return 0;
     }
     else
